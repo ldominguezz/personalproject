@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face{
+    font-family: 'MrsSaintDelafield';
+    src: url('/assets/MrsSaintDelafield.woff2') format('woff2');
+}
+
+@theme{
+    --color-primary: #383655;
+    --color-text-primary: #89d1bb; 
+
+    --font-display: 'MrsSaintDelafield', system-ui, sans-serif;
+}
