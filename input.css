@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face{
+    font-family: 'Ephesis';
+    src: url('/assets/Ephesis.woff2') format('woff2');
+
+}
+@theme{
+    --color-primary: #383655;
+    --color-secondary: #89d1bb; 
+
+    --font-display: 'Ephesis', system-ui, sans-serif;
+}
