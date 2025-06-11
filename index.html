@@ -6,32 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
   <link rel="stylesheet" href="./assets/output.css">
-
 </head>
 
-<body class="mx-auto border border-black min-h-dvh bg-primary text-white w-full">
+<body class="min-h-dvh bg-primary text-white overflow-x-hidden">
   <header
-    class="h-30 md:h-70 flex flex-row justify-around items-center text-secondary w-full bg-[url(/assets/desierto.webp)] mask-b-from-85% mask-b-to-100%">
-    <span class="text-2xl">Portfolio</span>
+    class="h-30 md:h-70 flex flex-row justify-around items-center text-secondary w-full bg-[url(/assets/desierto.webp)] mask-b-from-85% mask-b-to-100% max-w-full">
+    <span class="text-2xl md:text-7xl font-title">Portfolio</span>
     <h1 class="definition text-2xl font-bold font-display -rotate-10 md:text-7xl">Cristina <span
         class="m-4">Becerra</span></h1>
   </header>
   <main>
     <section class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 md:pt-10">
       <div class=" flex flex-col pt-2 md:pt-6">
-        <h1 class="text-2xl uppercase">
+        <h1 class="text-4xl uppercase font-title ml-18">
           <span class="">¡Hola! Soy</span>
-          <span class="text-secondary">Cristina.</span>
+          <span class="text-secondary">Cristina</span>
         </h1>
-        <p class="text-sm md:text-lg text-md ml-4 mt-4">Una
+        <p class="text-sm md:text-lg ml-8 mt-4">Una
           <span class="text-secondary">Diseñadora Gráfica</span> y
           <span class="text-secondary">Desarrolladora Web</span>, residente en Barcelona.
         </p>
-        <p class="text-sm md:text-lg text-md ml-4 mt-2">Actualmente, me estoy especializando en diseño con el objetivo
+        <p class="text-sm md:text-lg ml-8 mt-2">Actualmente, me estoy especializando en diseño con el objetivo
           de ampliar mis conocimientos y habilidades en
           el ámbito del diseño. Busco una oportunidad profesional que me permita aplicar y seguir desarrollando los
           conocimientos adquiridos, contribuyendo al éxito de la empresa a través de mi creatividad y dedicación.</p>
-        <p class="text-sm md:text-lg text-md ml-4 mt-2">Soy creativa y resolutiva, ¡Estoy preparada para trabajar
+        <p class="text-sm md:text-lg ml-8 mt-2">Soy creativa y resolutiva, ¡Estoy preparada para trabajar
           contigo y crear nuevos proyectos!</p>
       </div>
       <div class="flex justify-center items-center">
@@ -41,46 +40,98 @@
     </section>
     <section class="grid grid-cols-1 md:grid-cols-3 pt-2 md:pt-10 h-40 md:h-70 w-full">
       <div class="flex flex-col justify-center items-center cols-span-2 md:col-span-2 bg-secondary text-primary">
-        <h1 class="text-2xl uppercase text-white pt-2">Educación</h1>
+        <h1 class="text-4xl uppercase text-white pt-4 font-title">Educación</h1>
         <div class="max-w-3xl mx-auto relative border-l-4 border-primary left-8">
-
-          <!-- Entrada 1 -->
           <div class="relative mb-12">
             <div class="absolute -left-3 top-1 w-5 h-5 bg-secondary border-4 border-primary rounded-full "></div>
             <p class="text-sm font-bold mb-1 pl-4">2024 - Actualmente</p>
-            <p class="text-sm md:text-lg font-bold text-primary pl-4 break-words hover:scale-110 hover:pl-10 hover:text-blue-800 hover:transition-all">CFGS Diseño y edición de publicaciones impresas y multimedia</p>
-          <p class="text-sm text-primary pl-4">IFP Antoni Algueró, Sant Just Desvern</p>
-        </div>
+            <p class="text-sm md:text-lg font-bold text-primary pl-4 hover:scale-110 hover:pl-10
+               hover:text-red-800 hover:transition-transform duration-1000">
+              CFGS Diseño y edición de publicaciones impresas y multimedia</p>
+            <p class="text-sm text-primary pl-4">IFP Antoni Algueró, Sant Just Desvern</p>
+          </div>
 
-        <!-- Entrada 2 -->
-        <div class="relative mb-12">
-          <div class="absolute -left-3 top-1 w-5 h-5 bg-secondary border-4 border-primary rounded-full"></div>
-          <p class="text-sm font-bold mb-1 pl-4">2023</p>
-          <p class="text-sm md:text-lg font-bold text-primary pl-4 break-words hover:scale-110 hover:pl-10 hover:text-blue-800 hover:transition-all">Certificado de Profesionalidad Diseño de productos gráficos (600h)</p>
-          <p class="text-sm text-primary pl-4">Aspasia, Online</p>
-        </div>
+          <div class="relative mb-12">
+            <div class="absolute -left-3 top-1 w-5 h-5 bg-secondary border-4 border-primary rounded-full"></div>
+            <p class="text-sm font-bold mb-1 pl-4">2023</p>
+            <p class="text-sm md:text-lg font-bold text-primary pl-4 hover:scale-110 hover:pl-10 
+              hover:text-red-800 hover:transition-transform duration-1000">
+              Certificado de Profesionalidad Diseño de productos gráficos (600h)</p>
+            <p class="text-sm text-primary pl-4">Aspasia, Online</p>
+          </div>
 
-        <!-- Entrada 3 -->
-        <div class="relative mb-12">
-          <div class="absolute -left-3 top-1 w-5 h-5 bg-secondary border-4 border-primary rounded-full"></div>
-          <p class="text-sm font-bold mb-1 pl-4">2019 - 2022</p>
-          <p class="text-sm md:text-lg font-bold text-primary pl-4 break-words hover:scale-110 hover:pl-10 hover:text-blue-800 hover:transition-all">CFGS Desarrollo de aplicaciones web</p>
-          <p class="text-sm text-primary pl-4">Ilerna, Online</p>
-        </div>
+          <div class="relative mb-12">
+            <div class="absolute -left-3 top-1 w-5 h-5 bg-secondary border-4 border-primary rounded-full"></div>
+            <p class="text-sm font-bold mb-1 pl-4">2019 - 2022</p>
+            <p class="text-sm md:text-lg font-bold text-primary pl-4 hover:scale-110 hover:pl-10
+               hover:text-red-800 hover:transition-transform duration-1000">
+              CFGS Desarrollo de aplicaciones web</p>
+            <p class="text-sm text-primary pl-4">Ilerna, Online</p>
+          </div>
 
-        <!-- Entrada 4 -->
-        <div class="relative">
-          <div class="absolute -left-3 top-1 w-5 h-5 bg-secondary border-4 border-primary rounded-full"></div>
-          <p class="text-sm font-bold mb-1 pl-4">2015</p>
-          <p class="text-sm md:text-lg font-bold text-primary pl-4 break-words hover:scale-110 hover:pl-10 hover:text-blue-800 hover:transition-all">Certificado de Profesionalidad Sistemas Microinformáticos y redes (600h)
-          </p>
-          <p class="text-sm text-primary pl-4 mb-10">Staf, Barcelona</p>
-        </div>
+          <div class="relative">
+            <div class="absolute -left-3 top-1 w-5 h-5 bg-secondary border-4 border-primary rounded-full"></div>
+            <p class="text-sm font-bold mb-1 pl-4">2015</p>
+            <p class="text-sm md:text-lg font-bold text-primary pl-4 hover:scale-110 hover:pl-10 
+              hover:text-red-800 hover:transition-transform duration-1000">
+              Certificado de Profesionalidad Sistemas Microinformáticos y redes (600h)
+            </p>
+            <p class="text-sm text-primary pl-4 mb-10">Staf, Barcelona</p>
+          </div>
 
+        </div>
       </div>
-      </div>
-      <div class="flex justify-center items-center cols-span-2 md:col-span-1 bg-white text-primary">
-        <h1>Proyectos</h1>
+      <div class="flex flex-col justify-center items-center cols-span-2 md:col-span-1 bg-white text-primary pt-4 md:pt-0">
+        <h1 class="text-4xl uppercase font-title md:pt-8">Proyectos</h1>
+        <!--Photoshop-->
+        <div class="flex items-center space-x-2 md:pt-8">
+          <!-- Icona Photoshop -->
+          <div class="size-12 md:size-16 bg-black rounded-full flex items-center justify-center text-cyan-400 text-xl md:text-3xl font-bold z-10">
+            Ps
+          </div>
+          <!-- Barra de progrés -->
+          <div class="flex items-center w-64 h-2 rounded-full bg-gray-300 relative md:w-96 -left-3 z-0">
+            <div class="absolute left-0 top-0 h-2 bg-cyan-400 rounded-full" style="width: 60%;"></div>
+            <div class="absolute right-0 top-1/2 -translate-y-1/2 w-4 h-4 bg-gray-300 rounded-full"></div>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-2 mt-4 md:pt-8">
+          <!-- Icona Illustrator -->
+          <div class="size-12 md:size-16 bg-black rounded-full flex items-center justify-center text-yellow-500 text-xl md:text-3xl font-bold z-10 ">
+            Ai
+          </div>
+          <!-- Barra de progrés Illustrator -->
+          <div class="flex items-center w-64 h-2 rounded-full bg-gray-300 relative md:w-96 -left-3 z-0">
+            <div class="absolute left-0 top-0 h-2 bg-yellow-500 rounded-full" style="width: 75%;"></div>
+            <div class="absolute right-0 top-1/2 -translate-y-1/2 w-4 h-4 bg-gray-300 rounded-full"></div>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-2 mt-4 md:pt-8">
+          <!-- Icona InDesign -->
+          <div class="size-12 md:size-16 bg-black rounded-full flex items-center justify-center text-pink-500 text-xl md:text-3xl font-bold z-10">
+            Id
+          </div>
+          <!-- Barra de progrés InDesign -->
+          <div class="flex items-center w-64 h-2 rounded-full bg-gray-300 relative md:w-96 -left-3 z-0">
+            <div class="absolute left-0 top-0 h-2 bg-pink-500 rounded-full" style="width: 75%;"></div>
+            <div class="absolute right-0 top-1/2 -translate-y-1/2 w-4 h-4 bg-gray-300 rounded-full"></div>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-2 mt-4 md:pt-8">
+          <!-- Icona Figma -->
+          <div class="size-12 md:size-16 bg-black rounded-full flex items-center justify-center text-white text-xl md:text-3xl font-bold z-10">
+            Fg
+          </div>
+          <!-- Barra de progrés Figma -->
+          <div class="flex items-center w-64 h-2 rounded-full bg-gray-300 relative md:w-96 -left-3 z-0">
+            <div class="absolute left-0 top-0 h-2 bg-black rounded-full" style="width: 50%;"></div>
+            <div class="absolute right-0 top-1/2 -translate-y-1/2 w-4 h-4 bg-gray-300 rounded-full"></div>
+          </div>
+        </div>
+        
       </div>
     </section>
   </main>

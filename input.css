@@ -2,12 +2,16 @@
 
 @font-face{
     font-family: 'Ephesis';
-    src: url('/assets/Ephesis.woff2') format('woff2');
-
+    src: url('/assets/fonts/Ephesis.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'BebasNeue';
+    src: url('/assets/fonts/BebasNeue.woff2') format('woff2');
 }
 @theme{
-    --color-primary: #383655;
-    --color-secondary: #89d1bb; 
+    --color-primary: #393654;
+    --color-secondary: #98e7c2; 
 
     --font-display: 'Ephesis', system-ui, sans-serif;
+    --font-title: 'BebasNeue', system-ui, sans-serif;
 }
