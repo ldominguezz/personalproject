@@ -9,28 +9,28 @@
 
 </head>
 
-<body class="mx-auto border border-black min-h-dvh bg-primary text-white">
-  <header class="h-40 flex flex-row justify-around items-center text-secondary">
+<body class="mx-auto border border-black min-h-dvh bg-primary text-white w-full">
+  <header class="h-30 md:h-70 flex flex-row justify-around items-center text-secondary w-full bg-[url(/assets/desierto.webp)] mask-b-from-85% mask-b-to-100%">
     <span class="text-2xl">Portfolio</span>
-    <h1 class="definition text-7xl font-bold font-display -rotate-10">Cristina <span class="m-4">Becerra</span></h1>
+    <h1 class="definition text-2xl font-bold font-display -rotate-10 md:text-7xl">Cristina <span class="m-4">Becerra</span></h1>
   </header>
   <main>
-    <section class="flex flex-row justify-around items-center w-full h-150">
-      <div class="flex flex-col">
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 md:pt-10">
+      <div class=" flex flex-col pt-2 md:pt-6">
         <h1 class="text-2xl uppercase">
           <span class="">¡Hola! Soy</span>
           <span class="text-secondary">Cristina.</span>
         </h1>
-      <p class="text-lg m-2">Una <span class="text-secondary">Diseñadora Gráfica</span> y <span
-            class="text-secondary"></span>Desarrolladora Web</span>, residente en Barcelona.
-
-          Actualmente, me estoy especializando en diseño con el objetivo de ampliar mis conocimientos y habilidades en
+        <p class="text-sm md:text-lg text-md ml-4 mt-4">Una <span class="text-secondary">Diseñadora Gráfica</span> y <span
+            class="text-secondary">Desarrolladora Web</span>, residente en Barcelona.</p>
+        <p class="text-sm md:text-lg text-md ml-4 mt-2">Actualmente, me estoy especializando en diseño con el objetivo de ampliar mis conocimientos y habilidades en
           el ámbito del diseño. Busco una oportunidad profesional que me permita aplicar y seguir desarrollando los
-          conocimientos adquiridos, contribuyendo al éxito de la empresa a través de mi creatividad y dedicación.
-
-          Soy creativa y resolutiva, ¡Estoy preparada para trabajar contigo y crear nuevos proyectos!</p>
+          conocimientos adquiridos, contribuyendo al éxito de la empresa a través de mi creatividad y dedicación.</p>
+        <p class="text-sm md:text-lg text-md ml-4 mt-2">Soy creativa y resolutiva, ¡Estoy preparada para trabajar contigo y crear nuevos proyectos!</p>
       </div>
-      <img class="mask-b-from-87% mask-b-to-100% mask-l-from-93% mask-l-to-100% size-100" src="./assets/Perfil.webp" />
+      <div class="flex justify-center items-center">
+        <img class="mask-b-from-87% mask-b-to-100% mask-l-from-93% mask-l-to-100% size-40 md:size-100" src="./assets/Perfil.webp" />
+      </div>
     </section>
   </main>
   <footer></footer>
