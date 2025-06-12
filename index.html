@@ -9,16 +9,23 @@
 </head>
 
 <body class="min-h-dvh bg-primary text-white overflow-x-hidden">
-  <header
-    class="h-30 md:h-70 flex flex-row justify-around items-center text-secondary w-full bg-[url(/assets/desierto.webp)] mask-b-from-85% mask-b-to-100% max-w-full">
+  <!--<header
+    class="h-30 md:h-70 flex flex-row justify-around items-center text-secondary w-full bg-[url(/assets/desierto.webp)] mask-b-from-85% mask-b-to-100% object-cover">
     <span class="text-2xl md:text-7xl font-title">Portfolio</span>
     <h1 class="definition text-2xl font-bold font-display -rotate-10 md:text-7xl">Cristina <span
+        class="m-4">Becerra</span></h1>
+  </header>-->
+  <header
+    class="h-30 md:h-70 flex flex-row justify-around items-center text-secondary w-full relative">
+    <img src="./assets/desierto.webp" alt="" class="mask-b-from-85% mask-b-to-100% object-cover z-0 absolute inset-0 w-full h-full">
+    <span class="text-2xl md:text-7xl font-title z-10">Portfolio</span>
+    <h1 class="definition text-2xl font-bold font-display -rotate-10 md:text-7xl z-10">Cristina <span
         class="m-4">Becerra</span></h1>
   </header>
   <main>
     <!--Presentación-->
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 md:pt-10">
-      <div class=" flex flex-col pt-2 md:pt-6">
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 md:pt-10 z-10">
+      <div class="flex flex-col pt-2 md:pt-6">
         <h1 class="text-4xl uppercase font-title ml-18">
           <span class="">¡Hola! Soy</span>
           <span class="text-secondary">Cristina</span>
@@ -201,7 +208,7 @@
           <div class="row-span-1">
             <h1 class="text-4xl uppercase pt-4 font-title">Habilidades</h1>
             <div class="flex flex-col items-start">
-              <p class="text-white">Habilidades de gestión</p>
+              <p>Habilidades de gestión</p>
               <p>Gestión del tiempo</p>
               <p>Pensamiento crítico</p>
               <p>Creatividad</p>

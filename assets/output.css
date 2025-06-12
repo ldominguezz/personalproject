@@ -208,6 +208,9 @@
   .relative {
     position: relative;
   }
+  .inset-0 {
+    inset: calc(var(--spacing) * 0);
+  }
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
@@ -249,6 +252,9 @@
   }
   .z-10 {
     z-index: 10;
+  }
+  .z-20 {
+    z-index: 20;
   }
   .col-span-1 {
     grid-column: span 1 / span 1;
@@ -320,6 +326,9 @@
   }
   .h-40 {
     height: calc(var(--spacing) * 40);
+  }
+  .h-full {
+    height: 100%;
   }
   .min-h-dvh {
     min-height: 100dvh;
@@ -557,6 +566,9 @@
     --tw-mask-linear: var(--tw-mask-left), var(--tw-mask-right), var(--tw-mask-bottom), var(--tw-mask-top);
     --tw-mask-left: linear-gradient(to left, var(--tw-mask-left-from-color) var(--tw-mask-left-from-position), var(--tw-mask-left-to-color) var(--tw-mask-left-to-position));
     --tw-mask-left-to-position: 100%;
+  }
+  .object-cover {
+    object-fit: cover;
   }
   .pt-0 {
     padding-top: calc(var(--spacing) * 0);
