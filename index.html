@@ -9,12 +9,6 @@
 </head>
 
 <body class="min-h-dvh bg-primary text-white overflow-x-hidden">
-  <!--<header
-    class="h-30 md:h-70 flex flex-row justify-around items-center text-secondary w-full bg-[url(/assets/desierto.webp)] mask-b-from-85% mask-b-to-100% object-cover">
-    <span class="text-2xl md:text-7xl font-title">Portfolio</span>
-    <h1 class="definition text-2xl font-bold font-display -rotate-10 md:text-7xl">Cristina <span
-        class="m-4">Becerra</span></h1>
-  </header>-->
   <header class="h-30 md:h-70 flex flex-row justify-around items-center text-secondary w-full relative">
     <img src="./assets/desierto.webp" alt=""
       class="mask-b-from-85% mask-b-to-100% object-cover z-0 absolute inset-0 w-full h-full">
@@ -47,7 +41,7 @@
       </div>
     </section>
     <!-- Estudios y herramientas-->
-    <section class="grid grid-cols-1 md:grid-cols-3 pt-2 md:pt-10 w-full">
+    <section class="grid grid-cols-1 md:grid-cols-3 pt-2 md:pt-10">
       <div class="flex flex-col justify-center items-center cols-span-2 md:col-span-2 bg-secondary text-primary">
         <h1 class="text-4xl uppercase text-white pt-4 font-title">Educación</h1>
         <div class="relative border-l-4 border-primary left-4">
@@ -148,9 +142,9 @@
       </div>
     </section>
     <!-- Experiencia y habilidades-->
-    <section class="grid grid-cols-1 md:grid-cols-3 w-full bg-white text-primary">
+    <section class="grid grid-cols-1 md:grid-cols-3 bg-white text-primary">
       <div class="flex flex-col items-center md:col-span-2 ml-2 pr-2">
-        <h1 class="text-4xl uppercase pt-4 font-title pb-2">Experiencia</h1>
+        <h1 class="text-4xl uppercase pt-4 font-title pb-4">Experiencia</h1>
         <!-- Flamaid -->
         <div class="grid grid-cols-3">
           <div class="col-span-1 text-right flex flex-col items-end pr-4">
@@ -192,7 +186,6 @@
             <p class="text-xs text-gray-500">Consultoría</p>
           </div>
           <div class="col-span-2 border-l-2 border-emerald-500 pl-4">
-            <!--<div class="w-5 h-5 bg-white border-4 border-primary rounded-full"></div>-->
             <p class="text-sm md:text-base font-bold pl-4 pb-2">Auxiliar Departamento de Marketing</p>
             <p class="text-sm md:text-base text-primary pl-4 pb-4">
               Diseño y desarrollo de materiales gráficos, incluyendo trípticos, banners, logotipos, entradas
@@ -204,11 +197,11 @@
         </div>
       </div>
       <div class="flex flex-col items-center md:col-span-1 bg-secondary">
-        <div class="grid grid-rows-2 gap-10">
+        <div class="grid">
           <div class="row-span-1">
-            <h1 class="text-4xl uppercase pt-4 pb-2 font-title flex justify-center">Habilidades</h1>
+            <h1 class="text-4xl uppercase pt-4 pb-4 font-title flex justify-center">Habilidades</h1>
             <div class="flex flex-col items-start">
-              <ul class="space-y-3 text-gray-800">
+              <ul class="space-y-3 text-primary">
                 <li class="flex items-center gap-2">
                   <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" stroke-width="1.5"
                     viewBox="0 0 24 24">
@@ -292,6 +285,36 @@
           </div>
         </div>
       </div>
+    </section>
+    <!-- Proyectos-->
+    <section class="flex flex-col items-center">
+      <h1 class="text-4xl uppercase pt-6 font-title md:pt-10">Proyectos</h1>
+      <div class="grid grid-cols-3 md:grid-cols-6 gap-6 md:gap-10 pt-6  items-center justify-center">
+        <div class="size-30 md:size-50 bg-white hover:scale-110 transition-transform duration-300">
+          <a href="#wwfaditivos" class="hover:contrast-125">
+            <img src="./assets/wwfaditivos.webp" class="size-30 md:size-50 object-cover" aria-label="">
+          </a>
+        </div>
+        <div class="size-30 md:size-50 bg-white hover:scale-110 transition-transform duration-300">
+          <a href="#flamaid" class="hover:contrast-125">
+            <img src="./assets/flamaid.webp" class="size-30 md:size-50 object-contain" aria-label="">
+          </a>
+        </div>
+        <div class="size-30 md:size-50 bg-white hover:scale-110 transition-transform duration-300">
+          <a href="#mascoting" class="hover:contrast-125">
+            <img src="./assets/Logo4Patas.webp" class="size-30 md:size-50 object-contain" aria-label="">
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="wwfaditivos">
+      <img src="./assets/Illustrator_wwfaditivos.webp" class="w-full object-cover" alt="">
+    </section>
+    <section id="flamaid">
+      <img src="./assets/Illustrator_flamaid.webp" class="w-full object-cover" alt="">
+    </section>
+    <section id="mascoting">
+      <img src="./assets/Illustrator_mascoting.webp" class="w-full object-cover" alt="">
     </section>
   </main>
   <footer></footer>
