@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     type: "words"
   })
   gsap.from(splitText.words, {
-    duration: 2,
+    duration: 3,
     y: 20, //estado inicial
     stagger: 0.7, // segundos entre animacion de cada palabra
     autoAlpha: 0, // desde opacidad 0
@@ -14,11 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const tl = gsap.timeline({
     defaults: {
-      duration: 1,
+      duration: 2,
       ease: "power2.inOut",
       scrollTrigger: {
-        scrub: 1, //vincula la animación al scroll  "center center" inicia al centro de la pantalla
-        start: "top top", //en que pixel empieza la animacion                 
+        scrub: 2, //vincula la animación al scroll  "center center" inicia al centro de la pantalla
+        start: "80% center", //en que pixel empieza la animacion                 
       }
     }
   })
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
       y: -10
     })
     .to('#detalles', {
-      x: -70,
+      x: 50,
       y: 40
     })
     .to('#solucion', {
