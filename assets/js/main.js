@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
-document.addEventListener("DOMContentLoaded", () => {
+document.fonts.ready.then(function() {
   const splitText = new SplitText(".definition", {
     type: "words"
   })
@@ -23,10 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })
   tl
-    .to('#habilidades', {
-      y: 100,
-      x: 100
-    })
     .to('#tiempo', {
       x: 200,
       y: 20
@@ -36,36 +32,36 @@ document.addEventListener("DOMContentLoaded", () => {
       y: -10
     })
     .to('#creatividad', {
-      x: -50
+      x: -30
     })
     .to('#trabajo', {
-      y: -150,
+      y: -170,
     })
     .to('#sociales', {
       x: 70,
       y: -10
     })
     .to('#detalles', {
-      x: 50,
+      x: 150,
       y: 40
     })
     .to('#solucion', {
       x: -70,
-      y: -40
+      y: -45
     })
     .to('#resiliencia', {
-      y: -170
+      x: 200,
+      y: 160
     })
 
 
-  const hoverElements = ['#habilidades', '#tiempo', '#pensamiento', '#creatividad', '#trabajo', '#sociales', '#detalles', '#solucion', '#resiliencia'];
+  const hoverElements = ['#tiempo', '#pensamiento', '#creatividad', '#trabajo', '#sociales', '#detalles', '#solucion', '#resiliencia'];
   hoverElements.forEach(element => {
     let animation = gsap.to(element, {
       paused: true,
       scale: 1.1,
       duration: 0.3,
-      ease: "power2.out",
-      color: "green"
+      ease: "power2.out"
     });
     var elementid = document.querySelector(element);
     elementid.addEventListener("mouseenter", () => animation.play());
